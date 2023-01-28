@@ -28,13 +28,14 @@ The content in the original file will be copied in the new file
 End the program.
 
 ## PROGRAM:
+```
 Developed by: Subhikshaa M
 RegisterNumber: 22001030
 with open("sample1.txt", "r") as firstfile:
 with open("sample2.txt", "a") as secondfile:
 for line in firstfile:
 secondfile.write(line)
-
+```
 ### OUTPUT1:
 ![image](https://user-images.githubusercontent.com/118787344/214053348-6c3d448c-90ab-4a16-8c89-081feeb1db68.png)
 
